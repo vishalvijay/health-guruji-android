@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Health Guruji</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="website">www.health-guruji.in</string>
+    <string name="blog">Blog</string>
+    <string name="youtube">YouTube</string>
+    <string name="facebook">Facebook</string>
+    <string name="share">Share</string>
+    <string name="communicate">Communicate</string>
+    <string name="share_using">Share using</string>
+    <string name="share_message">Hey checkout Health Guruji, there you can find great health tips. And download their app from</string>
+
+</resources>
