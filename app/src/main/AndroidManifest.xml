@@ -26,6 +26,13 @@
             android:theme="@style/AppTheme.NoActionBar">
 
         </activity>
+        <activity
+            android:name=".AboutActivity"
+            android:label="@string/about_us"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+
         <meta-data
             android:name="io.fabric.ApiKey"
             android:value="18320efd053ac9074d86d5e4186f31a632275d9a" />

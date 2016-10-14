@@ -107,11 +107,19 @@ public class MainActivity extends AppCompatActivity
             onFacebook();
         } else if (id == R.id.nav_share) {
             onClickShare();
+        } else if (id == R.id.nav_about) {
+            onClickAbout();
         }
+
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    private void onClickAbout() {
+        Intent i = new Intent(getApplicationContext(), AboutActivity.class);
+        startActivity(i);
     }
 
     private void onClickShare() {
