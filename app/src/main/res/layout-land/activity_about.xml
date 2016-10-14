@@ -27,27 +27,6 @@
         android:layout_marginTop="?attr/actionBarSize"
         android:orientation="vertical">
 
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <ImageView
-                android:id="@+id/bg_image"
-                android:layout_width="match_parent"
-                android:layout_height="200dp"
-                android:background="@drawable/nav_header"
-                android:scaleType="centerCrop" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignBottom="@id/bg_image"
-                android:layout_alignParentLeft="true"
-                android:padding="@dimen/view_padding"
-                android:text="@string/app_name"
-                android:textAppearance="@style/TextAppearance.AppCompat.Title.Inverse" />
-        </RelativeLayout>
-
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="0dp"
